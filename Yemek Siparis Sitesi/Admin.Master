@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Yemek_Siparis_Sitesi.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div class="slider">
+            <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/img/images.png" Width="699px" />
+        </div>
+        <div class="Admin_bosluk">
+           
+        </div>
+        <div class="butun">
+            <div class="Menuler">
+
+                <table >
+                    <tr>
+                        <td class="A_menuler_baslik">MENÜLER</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="A_menuler_tr"><a href="Kategori.aspx">KATEGORİLER</a></td>
+                    </tr>
+                    <tr>
+                        <td class="A_menuler_tr"><a href="Yemekler.aspx">YEMEKLER</a></td>
+                    </tr>
+                    <tr>
+                        <td class="A_menuler_tr"><a href="Yorumlar.aspx">YORUMLAR</a> </td>
+                    </tr>
+                    <tr>
+                        <td class="A_menuler_tr"><a href="Mesajlar.aspx"> MESAJLAR</a></td>
+                    </tr>
+                     <tr>
+                        <td class="A_menuler_tr"><a href="GununYemegiAdmin.aspx"> YEMEKLERİ</a></td>
+                    </tr>
+                     <tr>
+                        <td class="A_menuler_tr"> <a href="Tarifler.aspx"> ÖNERİLER</a></td>
+                    </tr>
+                     <tr>
+                        <td class="A_menuler_tr">HAKKIMIZDA</td>
+                    </tr>
+                   
+                </table>
+            </div>
+            <div class="A_icerik">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                   
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

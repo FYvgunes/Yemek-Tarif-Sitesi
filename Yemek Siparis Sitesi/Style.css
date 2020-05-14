@@ -1,0 +1,377 @@
+﻿.slider {
+    height: 150px;
+    width: 700px;
+    margin-left: 300px;
+    background: #00b577;
+}
+
+.admin_slider {
+    height: 150px;
+    width: 700px;
+    margin-left: 300px;
+    background: #00b577;
+    margin-bottom: 10px;
+}
+
+.bosluk {
+    height: 40px;
+    width: 700px;
+    margin-left: 300px;
+    background: #078258;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+    .bosluk tr {
+        text-align: center;
+        background: #00b577;
+        margin: 5px;
+        padding: 5px;
+    }
+
+        .bosluk tr td {
+            color: white;
+            font-size: 20px;
+            font-weight: normal;
+            padding: 5px 1px;
+            font-family: 'Segoe UI';
+            transition: transform;
+        }
+
+            .bosluk tr td:hover {
+                color: black;
+                background: #078258;
+                transform: scale(1.1);
+            }
+
+    .bosluk td:hover {
+    }
+
+    .bosluk tr td a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+
+.cizgi hr {
+    font-size: 3px;
+    font-weight: bold;
+    border: 1px solid Black;
+}
+
+.menu {
+    height: auto;
+    width: 200px;
+    margin-left: 0px;
+    background: #327bc5;
+    float: left;
+}
+
+.butun {
+    width: 700px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+.kategori {
+    height: 300px;
+    width: 200px;
+    margin-left: 0px;
+    background: #00b577;
+    float: left;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+    .kategori strong {
+        margin: 20px;
+        padding: 20px;
+        color: black;
+    }
+
+    .kategori labeb {
+        border: 2px solid black;
+    }
+
+.kategori_label {
+    border: 1px solid white;
+    padding: 0px 10px;
+    margin: 50px 0;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #00b577;
+    cursor: pointer;
+}
+
+    .kategori_label:hover {
+        background: white;
+        color: black;
+    }
+
+.icerik {
+    height: auto;
+    width: 485px;
+    margin-left: 15px;
+    background: #00b577;
+    float: left;
+}
+
+.icerik_label {
+    font-size: 15px;
+    line-height: 1.2;
+    color: white;
+}
+
+.icerik_label_baslik {
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.icerik_label_baslik_yemekler {
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.icerik_label_baslik_yemekler_td {
+    background: #021a34;
+    padding: 3px;
+}
+
+.baslik {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.baslik1 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.Yorumlar {
+    padding: 1px 10px;
+    background: #078258;
+}
+
+    .Yorumlar h4 {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.button1 {
+    font-size: 15px;
+    background: #54bf91;
+    color: white;
+    font-weight: bold;
+    padding: 5px 60px;
+    margin: 5px 5px;
+    transition: all;
+    border-radius: 7px;
+}
+.button3 {
+    font-size: 15px;
+    background: #078258;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 2px 5px;
+    transition: all;
+    border-radius: 7px;
+    width:210px;
+}
+.button5{
+    text-align:center;
+    color:white;
+    background:#078258;
+    padding:10px;
+    border-radius:25%;
+    width:200px;
+    height:50px;
+    margin:5px;
+    
+
+}
+
+    .button1:hover {
+        background: white;
+        color: #00b577;
+        transform: scale(1.1);
+    }
+
+.Yorum_textbox {
+    padding: 5px 5px;
+    margin: 0px;
+    width: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body a:link {
+    color: white;
+    text-decoration: none;
+}
+
+body a:visited {
+    color: #54bf91;
+}
+
+body a:hover {
+    color: white;
+}
+
+.Yorum_metinler {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    color: white;
+    font-style: italic;
+}
+
+.Yorum_button {
+    width: 130px;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+    margin: 0 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    .Yorum_button:hover {
+        background: #078258;
+        color: #ffffff;
+    }
+
+.yorum_yorum_yap {
+    height: 75px;
+    width: 255px;
+}
+
+.textbox {
+    border: 2px solid #456789;
+    border-radius: 10px;
+    height: 22px;
+    width: 230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    border-radius: 10px;
+    color: #fff;
+    height: 35px;
+    width: 120px;
+    background: #078258;
+    font-size: 15px;
+    transition: transform;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button2 {
+    
+    border-radius: 10px;
+    color: #000;
+    font-size:23px;
+    height: 35px;
+    width: 35px;
+    margin:0 5px;
+    background: #c9daea;
+    
+    transition: transform;
+}
+
+    .button:hover {
+        background: #0c8159;
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+.genel_baslik {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Calibri;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
+
+.genel_metin {
+    font-size: 18px;
+    text-align: right;
+    font-family: Calibri;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+
+/*ADMİN PANELİ*/
+.A_Menuler_table {
+}
+
+.A_menuler_tr {
+    border: 2px solid #c9daea;
+    transition: transform;
+    text-align: center;
+    width: 200px;
+    cursor:pointer;
+}
+    .A_menuler_tr:hover {
+        background:#44626f;
+        color: #FFF;
+    } 
+
+
+.A_menuler_baslik {
+    font-size:20px;
+    font-weight:bold;
+
+}
+.image{
+    float:right;
+    width:20px;
+    height:20px;
+}
+
+.Menuler {
+    height: 300px;
+    width: 200px;
+    margin-left: 0px;
+    background: #258bb5;
+    float: left;
+    font-size: large;
+    text-align: center;
+    color: #fff;
+}
+
+.A_icerik {
+    height: auto;
+    width: 490px;
+    margin-left: 10px;
+    background: #258bb5;
+    float: left;
+}
+
+.Admin_bosluk {
+    height: 10px;
+    width: 700px;
+    margin-left: 300px;
+    background: #258bb5;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.panel{
+    margin-top:25px;
+    
+}

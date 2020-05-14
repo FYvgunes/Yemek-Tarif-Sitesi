@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kullanici.master.cs" Inherits="Yemek_Siparis_Sitesi.Kullanici" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div class="slider">
+            <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/img/indir (2).jpg" Width="699px" />
+        </div>
+        <div class="bosluk">
+            <table style="width: 100%;">
+                <tr>
+                    <td><a href="AnaSayfa.aspx">Anasayfa</a></td>
+                    <td><a href="Gunun_yemegi.aspx">Günün Yemeği</a></td>
+                    <td><a href="Tarif_Oner.aspx">Tarif Öner</a></td>
+                    <td><a href="Hakkımızda.aspx">Hakkımızda</a></td>
+                    <td><a href="iletisim.aspx">İletişim</a></td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="butun">
+            <div class="kategori">
+                <strong>Kategoriler<br />
+                <br />
+                <br />
+                </strong>
+                <asp:DataList ID="DataList1" runat="server">
+                    <ItemTemplate>
+                       <a href="Kategori_detay.aspx?Kategoriid=<%# Eval("Kategoriid")%>"><asp:Label CssClass="kategori_label" ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label></a> 
+                        (<asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
+                        )
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
+            <div class="icerik">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
